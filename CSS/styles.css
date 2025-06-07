@@ -35,7 +35,9 @@ footer {
   padding-top: 9px !important;
 }
 
-.nav-link:hover,footer li a:hover ,footer i:hover {
+.nav-link:hover,
+footer li a:hover,
+footer i:hover {
   color: black !important;
 }
 
@@ -44,18 +46,18 @@ footer {
 }
 
 .navbar-toggler:focus {
-  border-color: #050b58 !important; 
+  border-color: #050b58 !important;
   box-shadow: none !important;
 }
 
 .accordion-button:not(.collapsed) {
-  background-color: #4781b1 !important; 
+  background-color: #4781b1 !important;
   box-shadow: none !important;
   color: white !important;
 }
 
 .accordion-button {
-  background-color: #013a69 !important; 
+  background-color: #013a69 !important;
   box-shadow: none !important;
   color: white !important;
 }
@@ -103,7 +105,7 @@ textarea {
 }
 
 .product-card {
-  border: 1px solid #dee2e6; 
+  border: 1px solid #dee2e6;
   margin-bottom: 1rem;
 }
 
@@ -123,8 +125,8 @@ textarea {
 /* ----- INDEX ----- */
 
 .imgBanner {
-    object-fit: cover;
-    height: 300px;
+  object-fit: cover;
+  height: 300px;
 }
 
 .imgPromoCrea {
@@ -133,7 +135,7 @@ textarea {
 
 .imgPromoCrea:hover {
   box-shadow: 0 0 5px rgb(34, 60, 177);
-    
+
 }
 
 .fondoCrema {
@@ -155,9 +157,9 @@ textarea {
 }
 
 .contenedorCrea {
-width: 500px;
-height: 500px;
-object-fit: cover;
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
 }
 
 .imgFarmacia {
@@ -166,88 +168,104 @@ object-fit: cover;
   object-fit: cover;
   object-position: 20% 100%;
 
-  }
-  .imgBanerAvene{
+}
+
+.imgBanerAvene {
   height: 300px;
   width: 100vw;
   object-fit: cover;
   object-position: 70% 100%;
 
-  }
+}
 
 @media (min-width:768px) and (max-width:991px) {
-  .imgFarmacia{
+  .imgFarmacia {
     height: 350px;
     width: 100vw;
   }
-  .imgBanerAvene{
+
+  .imgBanerAvene {
     height: 350px;
     width: 100vw;
     object-position: 25% 100%;
 
   }
-  
+
 }
 
 @media (min-width:992px) {
-  .imgFarmacia{
+  .imgFarmacia {
     height: 550px;
     object-position: 100% 70%;
   }
-  .imgBanerAvene{
+
+  .imgBanerAvene {
     height: 550px;
     object-position: 100% 70%;
   }
 }
 
 .team-member {
-    text-align: center;
-  }
-  .team-member img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 50%;
-    background: #ddd;
-  }
-  .team-member h5 {
-    font-weight: bold;
-    margin-top: 10px;
-  }
-  .team-member p {
-    color: gray;
-    margin-bottom: 0;
-  }
-  .custom-img {
-    max-width: 100%;
-    border-radius: 10px;}
+  text-align: center;
+}
 
-    img{
-      object-fit: contain;
-    }
+.team-member img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  background: #ddd;
+}
 
-    textarea{
-      resize: none !important;
-    }
+.team-member h5 {
+  font-weight: bold;
+  margin-top: 10px;
+}
 
-    .upload-box {
-      border: 2px dashed #ccc;
-      border-radius: 10px;
-      padding: 30px;
-      text-align: center;
-      background-color: #f8f9fa;
-    }
-    .upload-box:hover {
-      border-color: #6c757d;
-    }
-    .upload-box img {
-      width: 40px;
-      margin-bottom: 10px;
-    }
-    .info-list i {
-      color: #6c757d;
-      margin-right: 8px;}
+.team-member p {
+  color: gray;
+  margin-bottom: 0;
+}
 
-      .bannerPregFreg{
-        object-fit: cover;
-      }
+.custom-img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+img {
+  object-fit: contain;
+}
+
+textarea {
+  resize: none !important;
+}
+
+.upload-box {
+  border: 2px dashed #ccc;
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+  background-color: #f8f9fa;
+}
+
+.upload-box:hover {
+  border-color: #6c757d;
+}
+
+.upload-box img {
+  width: 40px;
+  margin-bottom: 10px;
+}
+
+.info-list i {
+  color: #6c757d;
+  margin-right: 8px;
+}
+
+.bannerPregFreg {
+  object-fit: cover;
+}
+
+.img-fluid {
+  filter: grayscale(100%);
+}
